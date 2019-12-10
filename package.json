@@ -1,0 +1,18 @@
+{
+    "name": "fake-private-fields-in-JS",
+    "version": "0.1.0",
+    "author": "leifl@kth.se",
+    "scripts": {
+        "ec5-no-priv-field": "node ./scripts/ec5-no-priv-field.js",
+        "ec5-priv-field-with-closure": "node ./scripts/ec5-priv-field-with-closure.js",
+        "ec6-priv-field-with-symbol": "node ./scripts/ec6-priv-field-with-symbol.js",
+        "ec6-priv-field-with-weakmap": "node ./scripts/ec6-priv-field-with-weakmap.js"
+    },
+    "license": "ISC",
+    "dependencies": {},
+    "devDependencies": {
+        "@types/node": "^12.0.2",
+        "eslint": "^5.16.0",
+        "eslint-config-google": "^0.13.0"
+    }
+}
